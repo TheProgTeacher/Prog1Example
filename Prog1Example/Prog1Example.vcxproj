@@ -116,8 +116,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ifAndSwitch.cpp" />
-    <ClCompile Include="inputOutput.cpp" />
-    <ClCompile Include="variablesAndTypes.cpp" />
+    <ClCompile Include="inputOutpuVariables.cpp" />
+    <ClCompile Include="loops.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
