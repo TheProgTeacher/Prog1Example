@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArraysAndStrings.cpp" />
     <ClCompile Include="ifAndSwitch.cpp" />
     <ClCompile Include="inputOutpuVariables.cpp" />
     <ClCompile Include="loops.cpp" />
