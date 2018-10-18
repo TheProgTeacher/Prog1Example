@@ -115,10 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="arrays.cpp" />
     <ClCompile Include="ArraysAndStrings.cpp" />
+    <ClCompile Include="functions.cpp" />
     <ClCompile Include="ifAndSwitch.cpp" />
     <ClCompile Include="inputOutpuVariables.cpp" />
     <ClCompile Include="loops.cpp" />
+    <ClCompile Include="strings.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -27,5 +27,14 @@
     <ClCompile Include="ArraysAndStrings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="arrays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="strings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
