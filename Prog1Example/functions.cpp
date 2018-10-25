@@ -2,30 +2,18 @@
 	Fil: functions.cpp
 	Syfte: Visa hur functioner fungerar i C++
 */
-#include<iostream>
-#include<string>
-#include<Windows.h>
+#include <iostream>
+#include <cmath>
 
 using namespace std;
+typedef double db;
 
-int pow(int a, int b) { //tar a upphöjt till b 
-	int r = a;
-	while (b > 1) {
-		r *= a;
-		b--;
-	}
-	return r;
+db func(db x1, db y1, db x2, db y2) {
+	return sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2));
 }
 
 int main() {
-	
-	int a = 10;
-	int b = 3;
-
-	int c = pow(a, b);
-
-	cout << c << endl;
-
+	cout << func(13, 37, 6, 66) << endl;
 	system("pause");
 	return 0;
 }
