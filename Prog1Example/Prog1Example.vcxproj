@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="arrays.cpp" />
     <ClCompile Include="ArraysAndStrings.cpp" />
+    <ClCompile Include="Classes.cpp" />
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="ifAndSwitch.cpp" />
     <ClCompile Include="inputOutpuVariables.cpp" />
